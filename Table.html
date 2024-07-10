@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f0f4f8;
+    }
+
+    .Table {
+
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+
+
+    }
+
+    .Table h1,
+    h3 {
+
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+
+    }
+
+    .Table p {
+      margin-top: 15px;
+
+      text-align: center;
+      color: #2c3e50;
+      font-size: larger;
+      font-weight: 600;
+    }
+
+    .Ttable {
+
+      border: 2px double #2c3e50;
+      width: 50%;
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+      color: #2c3e50;
+
+
+    }
+
+    .homelink li a h1 {
+
+      font-size: xx-large;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      color: #2c3e50;
+      text-align: center;
+      text-decoration: none;
+      font-style: none;
+
+    }
+  </style>
+</head>
+
+<body>
+  <section class="Table">
+    <table class="Ttable" border="3px">
+      <h1>TIME TABLE</h1>
+      <h3>Table No.1</h3>
+      <thead>
+        <tr>
+          <th>Day/Period</th>
+          <th>I <br /> 9:30 - 10:20</th>
+          <th>II <br /> 10:20 - 11:10</th>
+          <th>III <br /> 12:00 - 12:40</th>
+          <th> 12:00 - 12:40</th>
+          <th>IV <br /> 12:40 - 1:30</th>
+          <th>V <br /> 1:30 - 2:20</th>
+          <th>VI <br /> 2:20 - 3:10</th>
+          <th>VII <br /> 3:10 - 4:00</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Monday</th>
+          <td>Eng</td>
+          <td>Math</td>
+          <td>Chem</td>
+          <td rowspan="5">LUNCH</td>
+          <td colspan="3">LAB</td>
+          <td>Phy</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td colspan="3">LAB</td>
+          <td>Eng</td>
+          <td>Chem</td>
+          <td>Math</td>
+          <td>SPORTS</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>Math</td>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Chem</td>
+          <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Chem</td>
+          <td colspan="3">LAB</td>
+          <td>Math</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Chem</td>
+          <td colspan="3">LAB</td>
+          <td>Math</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="Table">
+
+    <table class="Ttable" border="2">
+      <h1>My Timetable</h1>
+      <h3>Table No.2</h3>
+      <thead>
+        <tr>
+          <th colspan="5">Seminar</th>
+        </tr>
+      </thead>
+      <thead>
+        <tr>
+          <th rowspan="4">Day</th>
+          <th colspan="2">
+
+            Schedule
+            <hr />
+            Begin End
+
+          </th>
+          <th colspan="3">
+            Topic
+          </th>
+
+      </thead>
+      <tbody>
+        <tr>
+          <th>Monday</th>
+          <td>8:00 a.m.</td>
+          <td>5:00 a.m.</td>
+          <td> Introduction to XML
+            <hr /> Validity DTD and Relax NG
+          </td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>8:00 a.m.
+            <hr /> 11:00 p.m.
+            <hr /> 2:00 p.m.
+          </td>
+          <td>11:00 a.m.
+            <hr />2:00 p.m.
+            <hr /> 5:00p.m.
+          </td>
+          <td> XPath
+            <hr /> XSL Transformation
+          </td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>8:00 a.m.</td>
+          <td>12:00 a.m.</td>
+          <td> XSL Formating Objects </td>
+        </tr>
+
+      </tbody>
+
+
+    </table>
+
+  </section>
+
+  <section class="Table">
+
+
+    <table class="Ttable" border="2">
+      <h1>Employee Information</h1>
+      <h3>Table No.3</h3>
+      <tr>
+        <th>Employee ID and Name</th>
+        <th>Position</th>
+        <th>Department</th>
+        <th>Salary</th>
+        <th>Joining Date</th>
+      </tr>
+      <tr>
+        <td>101 - John Doe</td>
+        <td>Manager</td>
+        <td>Sales</td>
+        <td>$65,000</td>
+        <td>2022-01-15</td>
+      </tr>
+      <tr>
+        <td>102 - Jane Smith</td>
+        <td>Analyst</td>
+        <td>Finance</td>
+        <td>$50,000</td>
+        <td>2022-03-10</td>
+      </tr>
+      <tr>
+        <td>103 - Michael Johnson</td>
+        <td>Developer</td>
+        <td>IT</td>
+        <td>$55,000</td>
+        <td>2022-02-05</td>
+      </tr>
+      <tr>
+        <td colspan="4">Total Employees</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td colspan="4">Average Salary</td>
+        <td>$56,666.67</td>
+      </tr>
+    </table>
+
+    <p>Using tables for structured data representation enhances readability.</p>
+
+  </section>
+
+
+  <section class="homelink">
+    <li><a href="./index.html">
+        <h1>Click Here To Go Home</h1>
+      </a></li>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+.head {
+    font: caption;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #333333;
+}
+
+.heading ul li a {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333333;
+    font-style: none;
+
+
+}
+
+.heading ul li {
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-style: none;
+}
